@@ -10,5 +10,8 @@ class MathTest extends WordSpec with Matchers {
     "multiply two number" in {
       Math.mul(2, 3) shouldBe 6
     }
+    "subtract one number from another number" in {
+      Math.sub(10, 5) shouldBe 5
+    }
   }
 }
