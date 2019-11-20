@@ -10,5 +10,11 @@ class MathTest extends WordSpec with Matchers {
     "multiply two number" in {
       Math.mul(2, 3) shouldBe 6
     }
+    "divide two numbers" in {
+      Math.div(4, 2) shouldBe 2
+    }
+    "a test that fail (for checking PR buildings)" in {
+      3 shouldBe 2
+    }
   }
 }
